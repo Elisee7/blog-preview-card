@@ -1,0 +1,78 @@
+/*         ***Alternative pour le font Figtree***
+           @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+*/
+
+/* Variables des couleurs et du spacing */
+:root {
+    --yellow: rgb(244, 208, 78);
+    --gray-950: rgb(17, 17, 17);
+    --gray-500: rgb(107, 107, 107);
+    --white: rgb(255, 255, 255);
+    
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+
+/* Typography */
+@font-face {
+  font-family: 'Figtree ExtraBold';
+  font-weight: 800;
+  src: url('../fonts/static/Figtree-ExtraBold.ttf')format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree Medium';
+  font-weight: 500;
+  src: url('../fonts/static/Figtree-Medium.ttf')format('truetype');
+  font-display: swap;
+  font-style: normal;
+}
+
+/*
+@font-face {
+  font-family: 'Figtree Variable Italic';
+  font-weight: 100 900;
+  font-style: italic;
+  src: url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype-variations');
+}
+
+@font-face {
+  font-family: 'Figtree Variable';
+  font-weight: 100 900;
+  src: url('../fonts/Figtree-VariableFont_wght.ttf')format('truetype-variations');
+  font-display: swap;
+  font-style: normal;
+}
+*/
+
+.text-preset-1 {
+  font-family: 'Figtree ExtraBold', sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;  
+}
+
+.text-preset-2 {
+  font-family: 'Figtree Medium', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;  
+}
+
+.text-preset-3 {
+  font-family: 'Figtree Medium', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;  
+}
+
+.text-preset-3-bold {
+  font-family: 'Figtree ExtraBold', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;  
+}
